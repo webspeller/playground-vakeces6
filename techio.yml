@@ -1,0 +1,11 @@
+title: Elixir Project
+plan:
+- title: Welcome
+  statement: markdowns/welcome.md
+projects:
+  elixir:
+    buildCommand: mix compile
+    root: /elixir-project
+    runner:
+      name: elixir
+      version: latest
